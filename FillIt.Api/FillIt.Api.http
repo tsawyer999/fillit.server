@@ -1,0 +1,8 @@
+#@fill_it_HostAddress = http://localhost:5056
+@fill_it_HostAddress = https://api.fillit.hollox.net
+
+GET {{fill_it_HostAddress}}/game/question/
+Accept: application/json
+
+GET {{fill_it_HostAddress}}/game/answers/
+Accept: application/json
